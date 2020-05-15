@@ -12,3 +12,5 @@ docker run -d -p 8080:8080 -p 2222:2222 -e SSH_PORT=2222 --name test test
 
 ## Test SSH: 
 docker run -d -p 8080:8080 -p 2222:2222 -e SSH_PORT=2222 --name test test
+
+## Please note that this is a sample and is not maintained.
