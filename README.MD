@@ -11,6 +11,6 @@ docker run -d -p 8080:8080 -p 2222:2222 -e SSH_PORT=2222 --name test test
 ## The SpringBoot application should be running on port 8080 now. 
 
 ## Test SSH: 
-docker run -d -p 8080:8080 -p 2222:2222 -e SSH_PORT=2222 --name test test
+ssh root@localhost -p 2222
 
 ## Please note that this is a sample and is not maintained.
